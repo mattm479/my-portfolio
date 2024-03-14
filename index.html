@@ -2,19 +2,73 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Matthew Miskov's Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
-        <header>
-
-        </header>
-        <main>
-
-        </main>
-        <footer>
-
-        </footer>
+        <div class="wrapper">
+            <header>
+                <div class="name-container">
+                    <img src="./assets/images/avatar.png" alt="Matthew Miskov's Avatar" class="avatar" />
+                    <h1 class="name">Matthew Miskov</h1>
+                </div>
+                <div class="nav-container">
+                    <ul>
+                        <li><a href="#about-me" class="nav-link">About Me</a></li>
+                        <li><a href="#work" class="nav-link">Work</a></li>
+                        <li><a href="#contact-me" class="nav-link">Contact Me</a></li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <section id="about-me" class="about-me">
+                    <h2>About Me</h2>
+                    <div>
+                        <p>I am a Senior Software Engineer who wrote his first program at the age of 12 - it was a simple slot machine that was created as I read Teach Yourself C in 24 Hours. I had a lot of fun but I wasn't hooked - at least not yet. It wasn't until I started playing an online game, many years later, that was written in PHP that I was hooked. I was fascinated with how the inner workings of the game operated and I began to teach myself PHP. Eventually I joined the game's staff volunteering my time to help fix defects, make small updates and further my knowledge of PHP and MySQL.</p>
+                    </div>
+                </section>
+                <section id="work">
+                    <h2>Work</h2>
+                    <div class="project-container">
+                        <article class="card">
+                            <div class="tab">
+                                <h3>Prework Study Guide</h3>
+                                <p>HTML, CSS and JS</p>
+                            </div>
+                            <a href="https://mattm479.github.io/prework-study-guide"><img src="assets/images/prework-study-guide.png" alt="Screenshot of Prework Study Guide" /></a>
+                        </article>
+                        <article class="card">
+                            <div class="tab">
+                                <h3>Week 1 Project</h3>
+                                <p>HTML and CSS</p>
+                            </div>
+                            <a href="https://mattm479.github.io/week-1-project"><img src="assets/images/week-1-project.png" alt="Screenshot of Week 1 Project" /></a>
+                        </article>
+                        <article class="card">
+                            <div class="tab">
+                                <h3>First Mafia War</h3>
+                                <p>HTML, CSS, PHP and MySQL</p>
+                            </div>
+                            <a href="http://first-mafia-war.wuaze.com/"><img src="assets/images/first-mafia-war.png" alt="Screenshot of First Mafia War" /></a>
+                        </article>
+                    </div>
+                </section>
+                <section id="contact-me" class="contact-me-container">
+                    <h2>Contact Me</h2>
+                    <div>
+                        <ul>
+                            <li><a href="mailto:mattm479@gmail.com" class="contact-link">mattm479@gmail.com</a></li>
+                            <li><a href="https://github.com/mattm479" class="contact-link">GitHub</a></li>
+                            <li><a href="https://twitter.com/mattmiskov" class="contact-link">Twitter</a></li>
+                            <li><a href="https://open.spotify.com/user/12165110543" class="contact-link">Spotify</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>Made with <span class="heart">&hearts;</span> and <span class="css">CSS</span></p>
+            </footer>
+        </div>
     </body>
 </html>
