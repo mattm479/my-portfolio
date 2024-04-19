@@ -28,3 +28,7 @@ crashlytics-build.properties
 fabric.properties
 .idea/httpRequests
 .idea/caches/build_file_checksums.ser
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/my-portfolio.iml
+/.idea/vcs.xml
